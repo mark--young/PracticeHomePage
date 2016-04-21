@@ -1,0 +1,40 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	text-decoration: underline;
+}
+.g_head{
+	float: right;
+}
+.g_link i{
+	color: grey;
+}
+
+.body-content{
+	width: 580px;
+	height: 400px;
+	/*border: 2px solid red;*/
+	margin: 0 auto;
+}
+.search-box input{
+	width: 580px;
+	height: 40px;
+}
+.btns input{
+	width: 120px;
+	height: 40px;
+	border: 1px solid #f2f2f2;
+	color: #757575;
+	font-weight: bold;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	font-size: 13px;
+	padding: 0 13px;
+	text-align: center;
+}
+.btns input:hover{
+	border: 1px solid #A9A8A8;
+	color: black;
+}
