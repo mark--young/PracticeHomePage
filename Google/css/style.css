@@ -14,28 +14,54 @@ a:hover{
 .g_link i{
 	color: grey;
 }
+.g_link i, .g_link a{
+	display: inline-block;
+	padding: 0 5px;
+}
 
 .body-content{
 	width: 580px;
 	height: 400px;
 	/*border: 2px solid red;*/
 	margin: 0 auto;
+	padding: 10%;
 }
-.search-box input{
+.logo img{
+	margin: 0 0 10px 154px;
+}
+.logo p{
+	color: #4285f4;
+	position: relative;
+	top: -30px;
+	left: 370px;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	white-space: nowrap;
+}
+.search-box a input{
 	width: 580px;
 	height: 40px;
+	background-image: url('../img/download.png');
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-position: right;
+	border: 1px solid #D8D7D7;
+}
+.btns{
+	margin: 30px 140px;
 }
 .btns input{
 	width: 120px;
 	height: 40px;
-	border: 1px solid #f2f2f2;
+	border: 0px solid #f2f2f2;
 	color: #757575;
+	font-size: 13px;
 	font-weight: bold;
 	border-radius: 2px;
 	background-color: #f2f2f2;
 	font-size: 0.9em;
-	padding: 0 13px;
+	/*padding: 0 13px;*/
 	text-align: center;
+	margin: 10px;
 }
 .btns input:hover{
 	border: 1px solid #A9A8A8;
@@ -45,7 +71,8 @@ a:hover{
 	width: 100%;
 	height: 50px;
 	background-color: #F4F2F2;
-	font-size: 1em;
+	color: #B2ACAC;
+	font-size: 0.9em;
 	position: absolute;
 	bottom: 0;
 }
