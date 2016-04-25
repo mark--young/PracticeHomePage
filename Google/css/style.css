@@ -23,6 +23,31 @@ a:hover{
 	margin: 20px 0;
 }
 
+.apps_img{
+	width: 20px;
+	height: 20px;
+	background-image: url("../img/apps_1.PNG");
+}
+.apps_img:hover{
+	background-image: url("../img/apps_2.PNG");
+}
+
+.signin{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #2dc6ea;
+	border-radius: 2px;
+	color: #fff;
+	font-size: .9em;
+	font-weight: bold;
+	background-color: #2DC6EA;
+}
+.signin:hover{
+	text-decoration: none;
+}
+
 .body-content{
 	width: 580px;
 	height: 400px;
