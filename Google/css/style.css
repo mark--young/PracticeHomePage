@@ -48,6 +48,12 @@ a:hover{
 	text-decoration: none;
 }
 
+
+ul,ul li{
+	display: inline-block;
+}
+
+
 .body-content{
 	width: 580px;
 	height: 400px;
