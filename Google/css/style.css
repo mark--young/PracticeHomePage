@@ -27,6 +27,7 @@ a:hover{
 	width: 20px;
 	height: 20px;
 	background-image: url("../img/apps_1.PNG");
+	align: middle;
 }
 .apps_img:hover{
 	background-image: url("../img/apps_2.PNG");
