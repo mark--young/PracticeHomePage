@@ -1,11 +1,11 @@
-.head{
+/*.head{
 	position: absolute;
 	top: 0;
 	width: 100%;
 	min-width: 1024px;
 	height: 48px;
 	max-height: 44px;
-	/*margin: 0;*/
+	margin: 0;
 	background-color: rgba(0,0,0,0.8);
 }
 .li_top{
@@ -18,15 +18,15 @@
 	margin: 0;
 	left: 19%;
 
-	/*background-color: rgba(0,0,0,0.8);*/
+	background-color: rgba(0,0,0,0.8);
 }
 .li_top li{
 	list-style-type: none;
 	float: left;
 	width: 10%;
-/*	height: 44px;
+	height: 44px;
 	line-height: 44px;
-	max-height: 44px;*/
+	max-height: 44px;
 }
 .li_top li a{
 	display: inline-block;
@@ -39,6 +39,32 @@
 	line-height: 44px;
 	max-height: 44px;
 }
-.li_top li:hover a{
+*/
+/*********************
+	以上代码全部弃用,是以无序列表为html写的。
+*********************/
 
+.ap_top{
+	width: 100%;
+	background-color: #000;
+	height: 44px;
+	max-height: 48px;
+}
+.ap_menu{
+	width: 60%;
+	background-color: #222222;
+	height: 44px;
+	max-height: 48px;
+	text-align: center;
+}
+.ap_a{
+	display: inline-block;
+	width: 10%;
+	text-decoration: none;
+	color: #fff;
+	height: 44px;
+	max-height: 48px;
+	line-height: 44px;
+	text-align: center;
+	padding: 0;
 }
