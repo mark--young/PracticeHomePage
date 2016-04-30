@@ -1,0 +1,36 @@
+footer{
+	background-color: #F2F2F2;
+}
+.list{
+	width: 1000px;
+	height: 300px;
+	margin: 10px auto;
+	
+}
+.list ul{
+	float: left;
+	margin: 0 30px;
+}
+.list ul li{
+	padding: 2px;
+	list-style-type: none;
+}
+.list ul li a{
+	text-decoration: none;
+	color: #747474;
+	font-size: 0.8em;
+
+}
+.list ul li a:hover{
+	text-decoration: underline;
+}
+.info_1 p, .info_2 p{
+	color: #747474;
+	font-size: 0.8em;
+}
+.info_1 p a{
+	color: #08c;
+}
+.info_2 a{
+	font-size: 0.8em;
+}
