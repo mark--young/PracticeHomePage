@@ -9,8 +9,24 @@
 .li_top li{
 	float: left;
 	width: 100px;
+	position: relative;
+	left: 24%;
 }
 .li_top li a{
+	display: inline-block;
+	width: 100%;
 	color: #fff;
 	text-decoration: none;
+	text-align: center;
+
+}
+.li_top li a img{
+	height: 48px;
+}
+.li_top li a:nth-of-type(1),
+.li_top li:nth-of-type(1),
+.li_top li:nth-last-of-type(1),
+.li_top li:nth-last-of-type(1),
+{
+	height: 48px;
 }
