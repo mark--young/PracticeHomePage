@@ -22,6 +22,9 @@ a:hover{
 	padding: 0 5px;
 	margin: 20px 0;
 }
+.apps{
+	display: inline-block;
+}
 
 .apps_img{
 	width: 20px;
