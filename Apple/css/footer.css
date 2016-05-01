@@ -59,9 +59,10 @@ footer hr{
 
 .promo{
 	width: 100%;
-	background-color: #F2F2F2;
+	/*background-color: #F2F2F2;*/
 }
-.promo img{
+.promo a img{
 	width: 25%;
+	height: 200px;
 	float: left;
 }
