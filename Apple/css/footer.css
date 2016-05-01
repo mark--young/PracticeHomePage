@@ -54,4 +54,14 @@ footer hr{
 }
 .info_1, .info_2{
 	margin-left: 500px;
+	clear: both;
+}
+
+.promo{
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.promo img{
+	width: 25%;
+	float: left;
 }
