@@ -1,0 +1,105 @@
+.p_detail {
+    width: 100%;
+    height: 110px;
+    background-color: #F2F2F2;
+}
+
+.p_detail ul {
+    list-style-type: none;
+    margin-left: 500px;
+}
+
+.p_detail ul li {
+    float: left;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.p_detail ul li a figure{
+    text-align: center;
+	margin: 0;
+}
+
+.p_detail ul li a span {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 8px;
+    white-space: normal;
+    color: #333;
+}
+
+.macbook {
+    background-repeat: no-repeat;
+    background-size: 46px 54px;
+    background-image: url("../../img/mac/Macbook.svg");
+    width: 52px;
+    height: 54px;
+}
+
+.macbook-air {
+    background-repeat: no-repeat;
+    background-size: 52px 54px;
+    background-image: url("../../img/mac/Macbook_Air.svg");
+    height: 54px;
+    width: 52px;
+}
+
+.macbook-pro {
+    background-repeat: no-repeat;
+    background-size: 58px 54px;
+    background-image: url("../../img/mac/Macbook_Pro.svg");
+    width: 58px;
+    height: 54px;
+}
+
+.imac {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/iMac.svg");
+    background-size: 48px 54px;
+    width: 48px;
+    height: 54px;
+}
+
+.mac-pro {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/MacPro.svg");
+    background-size: 21px 54px;
+    width: 21px;
+    height: 54px;
+}
+
+.mac-mini {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/MacMini.svg");
+    background-size: 28px 54px;
+    height: 28px;
+    height: 54px;
+}
+
+.accessories {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/accessories.svg");
+    background-size: 28px 54px;
+    width: 28px;
+    height: 54px;
+}
+
+.OSX-El-Capitan {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/OSX_El_Captian.svg");
+    background-size: 30px 54px;
+    width: 30px;
+    height: 54px;
+}
+
+.compare {
+    background-repeat: no-repeat;
+    background-image: url("../../img/mac/compare.svg");
+    background-size: 70px 54px;
+    width: 70px;
+    height: 54px;
+}
