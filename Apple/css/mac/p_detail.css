@@ -6,7 +6,7 @@
 
 .p_detail ul {
     list-style-type: none;
-    margin-left: 500px;
+    margin: 0 auto;
 }
 
 .p_detail ul li {
