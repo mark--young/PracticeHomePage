@@ -1,0 +1,18 @@
+.slide ul{
+	list-style-type: none;
+}
+.description strong{
+	font-size: 2.5em;
+	font-weight: 400;
+}
+.description div ul li{
+
+}
+.description div ul li a{
+	text-decoration: none;
+	color: #08c;
+}
+ .p_d_descript{
+ 	font-size: 1.2em;
+ 	letter-spacing: 5px;
+ }
