@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="F:/Code/code From bootcss.com/font-awesome-4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="F:/Code/code From bootcss.com/unslider/dist/css/unslider.css">
-    <link rel="stylesheet" href="F:/Code/code From bootcss.com/unslider/dist/css/unslider-dots.css">
+    <!-- <link rel="stylesheet" href="F:/Code/code From bootcss.com/unslider/dist/css/unslider-dots.css"> -->
 </head>
 
 <body>
@@ -36,29 +36,46 @@
             </li>
         </ul>
     </header>
-    <div class="my-slider">
-        <ul>
-            <li>
-                <img src="img/home/SlideImgs/slider-ipadpro.PNG" alt="">
-                <a href="#">进一步了解 &gt;</a>
-                <a href="#">观看影片<i class="fa fa-play-circle"></i></a>
-                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
-                <img src="img/home/SlideImgs/ipad_pro_family_medium.jpg" alt="ipad_pro_family_medium">
-            </li>
-            <li>
-            <img src="img/home/SlideImgs/slide-iphonese.PNG" alt="">
-                <a href="#">进一步了解</a>
-                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
-                <img src="img/home/SlideImgs/iphone_se_medium.jpg" alt="iphone_se_medium">
-            </li>
-            <li>
-                <img src="img/home/SlideImgs/slide-watch.PNG" alt="">
-                <a href="#">进一步了解</a>
-                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
-                <img src="img/home/SlideImgs/apple_watch_trio_medium.jpg" alt="apple_watch_trio_medium">
-            </li>
-        </ul>
+
+
+
+
+
+
+
+
+
+    <!-- #region Jssor Slider Begin -->
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden; visibility: hidden;">
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="img/home/SlideImgs/ipad_pro_family_medium.jpg" style="width: 1310px; height: 541px" />
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="img/home/SlideImgs/iphone_se_medium.jpg" style="width: 580px; height: 517px;" />
+            </div>
+            <div data-p="225.00" style="display: none;">
+                <img data-u="image" src="img/home/SlideImgs/apple_watch_trio_medium.jpg" style="width: 371px; height: 171px" />
+            </div>
+            <a data-u="ad" href="http://www.jssor.com" style="display:none">jQuery Slider</a>
+        
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
     </div>
+
+
+
+
+
+    
+
     <footer>
         <nav class="promo">
             <a href="#"><img src="img/home/a.jpg" alt=""></a>
@@ -155,6 +172,8 @@
         $('.my-slider').unslider();
     });
     </script>
+    <script src="C:/Users/Roger/Downloads/full-width-slider.slider/js\jssor.slider.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
