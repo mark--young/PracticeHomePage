@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="F:/Code/code From bootcss.com/font-awesome-4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="F:/Code/code From bootcss.com/unslider/dist/css/unslider.css">
     <link rel="stylesheet" href="F:/Code/code From bootcss.com/unslider/dist/css/unslider-dots.css">
 </head>
@@ -35,62 +36,29 @@
             </li>
         </ul>
     </header>
-    <nav class="my-slider">
+    <div class="my-slider">
         <ul>
             <li>
-                <div class="description">
-                    <div class="d_des">
-                        <strong>iPad Pro</strong>
-                        <p class="p_d_descript">你的下一台电脑<br>现更以两种尺寸呈现</p>
-                    </div>
-                    <div class="d_list">
-                        <ul>
-                            <li><a href="#">进一步了解 &gt;</a></li>
-                            <li><a href="#">观看影片</a><span class="icon icon-play"></span></li>
-                            <li><a href="#">观看主题演讲</a><span class="icon icon-play"></span></li>
-                        </ul>
-                    </div>
-                </div>
-                <a href="#">
-                    <img src="img/home/SlideImgs/ipad_pro_family_medium.jpg" alt="ipad_pro_family_medium">
-                </a>
+                <img src="img/home/SlideImgs/slider-ipadpro.PNG" alt="">
+                <a href="#">进一步了解 &gt;</a>
+                <a href="#">观看影片<i class="fa fa-play-circle"></i></a>
+                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
+                <img src="img/home/SlideImgs/ipad_pro_family_medium.jpg" alt="ipad_pro_family_medium">
             </li>
             <li>
-            <div class="description">
-                <div>
-                    <img src="img/home/SlideImgs/iphone_se_medium.png" alt="">
-                    <p class="p_d_descript">一小部的一大步</p>
-                </div>
-                <div>
-                     <ul>
-                        <li><a href="#">进一步了解</a></li>
-                        <li><a href="#">观看主题演讲</a><span class="icon icon-play"></span></li>
-                    </ul>
-                </div>
-            </div>
-                <a href="#">
-                    <img src="img/home/SlideImgs/iphone_se_medium.jpg" alt="iphone_se_medium">
-                </a>
+            <img src="img/home/SlideImgs/slide-iphonese.PNG" alt="">
+                <a href="#">进一步了解</a>
+                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
+                <img src="img/home/SlideImgs/iphone_se_medium.jpg" alt="iphone_se_medium">
             </li>
             <li>
-            <div class="description">
-                <div>
-                    <img src="img/home/SlideImgs/watch_medium.png" alt="">
-                    <p class="p_d_descript">一目了然，就是你</p>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#">进一步了解</a></li>
-                        <li><a href="#">观看主题演讲</a><span class="icon icon-play"></span></li>
-                    </ul>
-                </div>
-            </div>
-                <a href="#">
-                    <img src="img/home/SlideImgs/apple_watch_trio_medium.jpg" alt="apple_watch_trio_medium">
-                </a>
+                <img src="img/home/SlideImgs/slide-watch.PNG" alt="">
+                <a href="#">进一步了解</a>
+                <a href="#">观看主题演讲<i class="fa fa-play-circle"></i></a>
+                <img src="img/home/SlideImgs/apple_watch_trio_medium.jpg" alt="apple_watch_trio_medium">
             </li>
         </ul>
-    </nav>
+    </div>
     <footer>
         <nav class="promo">
             <a href="#"><img src="img/home/a.jpg" alt=""></a>
@@ -180,13 +148,12 @@
             <p>京公安网安备 11010500896 京ICP备10214630</p>
         </div>
     </footer>
-
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="F:/Code/code From bootcss.com/unslider/dist/js/unslider-min.js"></script>
     <script>
-        jQuery(document).ready(function($) {
-            $('.my-slider').unslider();
-        });
+    jQuery(document).ready(function($) {
+        $('.my-slider').unslider();
+    });
     </script>
 </body>
 
