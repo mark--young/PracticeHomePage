@@ -231,7 +231,21 @@ a:hover{
 	padding-top: 50px;
 }
 .six div{
-	width: 200px;
+	width: 260px;
 	height: 150px;
-	background-color: #E2ECF8;
+	background-color: #1FC01F;
+	margin: 50px auto;
+	border-radius: 5px;
+}
+.six > div > img{
+	display: block;
+	margin: 0 auto;
+}
+.six > div > address{
+	width: 180px;
+	margin: 0 auto;
+	text-align: center;
+}
+.six > div > address > strong{
+	text-indent: 25px;
 }
