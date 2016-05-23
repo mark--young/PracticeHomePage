@@ -21,4 +21,15 @@ footer ul li a {
     text-decoration: none;
     width: 100px;
     color: black;
+    text-align: center;
+    line-height: 40px;
+}
+ul li.home{
+    height: 40px;
+    background-color: #D22A46;
+    border-radius: 20px;
+}
+ul li.home a{
+    color: white;
+
 }
