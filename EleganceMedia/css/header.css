@@ -148,3 +148,44 @@ header nav ul li a:hover {
 	background-color: #1F1F1F;
 	border-bottom: 1px solid black;
 }
+.seven{
+	width: 100vw;
+	height: 30vh;
+	background-color: #3C3C3C;
+}
+.six strong{
+	line-height: 5vh;
+	color: #fff;
+	margin-left: 400px;
+}
+.six form{
+	position: relative;
+	left: 600px;
+	top: -35px;
+}
+.six form input[type="email"]{
+	height: 2vh;
+}
+.six form input[type="submit"]{
+	height: 25px;
+	border: none;
+	background-color: #FFF500;
+	border-radius: 0 5px 5px 0;
+}
+.six img{
+	position: relative;
+	left: 1100px;
+	top: -65px;
+}
+.six p{
+	position: relative;
+	left: 1150px;
+	top: -115px;
+	color: #e6e6e6;
+}
+.six a{
+	position: relative;
+	left: 1400px;
+	top: -150px;
+	color: #FFF500;
+}
