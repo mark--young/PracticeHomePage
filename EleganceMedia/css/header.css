@@ -121,3 +121,30 @@ header nav ul li a:hover {
 	height: 55vh;
 	background-color: #F1F1F1;
 }
+.four span{
+	position: relative;
+	left: 21vw;
+	display: inline-block;
+	width: 19vw;
+	margin: 20px 20px;
+}
+.four span p{
+	line-height: 25px;
+	color: #272626;
+}
+
+.last > p{
+	color: #B92F0F;
+}
+.five{
+	width: 100vw;
+	height: 1vh;
+	background-color: #FFF500;
+	border-top: 1px solid #000;
+}
+.six{
+	width: 100vw;
+	height: 5vh;
+	background-color: #1F1F1F;
+	border-bottom: 1px solid black;
+}
