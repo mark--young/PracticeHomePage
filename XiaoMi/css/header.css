@@ -28,6 +28,10 @@
   right: 350px;
   font-size: .9em;
 }
+.two .h_hover{
+  position: relative;
+  top: -40px;
+}
 .shopping_cart{
   display: inline-block;
   width: 100px;
@@ -44,13 +48,16 @@
   color: #ff6700;
 }
 .cart{
-  display: block;
   position: relative;
   right: 295px;
   width: 400px;
   height: 100px;
   background-color: #fff;
   box-shadow: 1px 1px 1px #BDBABA, -1px -1px 1px #BDBABA;
+  visibility: hidden;
+}
+.shopping_cart:hover .cart{
+  visibility: visible;
 }
 .cart span{
   display: inline-block;
