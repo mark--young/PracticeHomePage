@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$(".shopping_cart").hover(function() {
-		$(".cart span").toggle();
-	}
+	$(".drop_hover").hover(function(){
+		$(".drop_dir").slideToggle();
+	})
 });
