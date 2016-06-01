@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/dropmenu.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" type="text/css" href="css/slide_img.css">
     <link rel="stylesheet" href="D:\CDN\Font-Awesome-master\Font-Awesome-master\css\font-awesome.min.css">
     <script src="http://code.jquery.com/jquery.min.js"></script>
 </head>
@@ -46,34 +47,40 @@
         <ul id="drop_one">
             <li class="drop_hover"><a href="#">小米手机</a>
                 <ul class="drop_dir">
-                <hr>
+                    <hr>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/maxdingbu!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/maxdingbu!160x110.jpg">
+                        <br>
                         <a href="#">小米Max</a>
                         <p>1499元起</p>
                     </li>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/mi5!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/mi5!160x110.jpg">
+                        <br>
                         <a href="#">小米5</a>
                         <p>1999元起</p>
                     </li>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/mi4s!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/mi4s!160x110.jpg">
+                        <br>
                         <a href="#">小米4s</a>
                         <p>1699元</p>
                     </li>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/mi4c!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/mi4c!160x110.jpg">
+                        <br>
                         <a href="#">小米4c</a>
                         <p>1099元</p>
                     </li>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/mi4!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/mi4!160x110.jpg">
+                        <br>
                         <a href="#">小米4</a>
                         <p>1299元</p>
                     </li>
                     <li>
-                        <img src="imgs/banner/xiaomishouji/minote!160x110.jpg"><br>
+                        <img src="imgs/banner/xiaomishouji/minote!160x110.jpg">
+                        <br>
                         <a href="#">小米Max</a>
                         <p>1499元</p>
                     </li>
@@ -93,6 +100,58 @@
             <input type="submit" value="">
         </span>
     </div>
+
+
+
+    <!-- this si slider -->
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="imgs/slide_imgs/1.jpg" style="width:100%">
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="imgs/slide_imgs/2.jpg" style="width:100%">
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="imgs/slide_imgs/3.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="imgs/slide_imgs/4.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="imgs/slide_imgs/5.jpg" style="width:100%">
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+
+
     <!-- this is dropmenu -->
     <ul class="container">
         <li class="active"><a href="#">手机 平板 电话卡</a>
@@ -165,6 +224,7 @@
         <li><a href="#">箱包 其他周边</a></li>
     </ul>
     <script src="js/XiaoMi_sctipt.js"></script>
+    <script src="js/slide_img.js"></script>
 </body>
 
 </html>
