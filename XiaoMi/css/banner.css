@@ -5,6 +5,7 @@
   top: 10px;
 }
 #drop_one{
+  width: 100%;
   position: relative;
   top: -55px;
   left: 520px;
@@ -27,6 +28,9 @@
   position: absolute;
   top: 60px;
   left: -100px;
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
 }
 .drop_dir hr{
   position: relative;
@@ -63,6 +67,7 @@
   position: relative;
   top: -85px;
   left: 220px;
+  z-index: -1;
 }
 .search input{
   outline: none;
