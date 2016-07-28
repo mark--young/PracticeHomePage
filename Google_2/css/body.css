@@ -18,15 +18,18 @@ nav > input[type="search"]{
     background: url('../img/voice.png') no-repeat right;
     background-size: 25px 25px;
     background-position: 570px;
-    text-indent: 5px;;
+    text-indent: 5px;
+    margin-top:10px;
 }
-nav > input[type="search"]:hover,
+nav > input[type="search"]:hover{
+    border: 1px solid gray;
+}
 nav > input[type="search"]:active{
     border: 1px solid #2A2AD3;
 }
 
 nav > div{
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 150px;
 }
 
@@ -42,4 +45,13 @@ nav div > input[type="submit"]{
     color: #757575;
     font-weight: bold;
     font-size: 13px;
+}
+
+nav div > input[type="submit"]:first-child{
+    margin-right: 5px;
+}
+
+nav div > input[type="submit"]:hover{
+    border: 1px solid #BAB7B7;
+    background-color: #F5F4F4;
 }
