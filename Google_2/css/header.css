@@ -7,7 +7,7 @@ header{
     float: right;
     width: 250px;
     height: 35px;
-    margin-top: -134px;
+    margin-top: -185px;
     margin-right: 20px;
 }
 
@@ -20,6 +20,10 @@ header a{
     text-decoration: none;
     line-height: 35px;
     margin-left: 10px;
+}
+header a:hover{
+    /* border-bottom: 1px solid black; */
+    text-decoration: underline;
 }
 
 header > img:nth-of-type(1){
