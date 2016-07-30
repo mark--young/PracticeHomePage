@@ -20,12 +20,41 @@ nav > input[type="search"]{
     background-position: 570px;
     text-indent: 5px;
     margin-top:10px;
+    font-size: 1.1em;
 }
 nav > input[type="search"]:hover{
     border: 1px solid gray;
+    visibility: visible;
+    opacity: 1;
 }
 nav > input[type="search"]:active{
     border: 1px solid #2A2AD3;
+}
+
+.tips{
+/*     display: inline-block; */
+    width: 100px;
+    height: 20px;
+    background-color: #141414;
+    color: #DFDDDD;
+    padding: 6px 0 6px 9px;
+    font-size: 0.7em;
+    position: relative;
+    left: 530px;
+    top: 8px;
+    visibility: hidden;
+    opacity: 0;
+}
+.tips::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent #141414 transparent;
+    position: relative;
+    top: -27px;
+    left: -45px;
 }
 
 nav > div{
