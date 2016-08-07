@@ -44,7 +44,7 @@
 #rect_s{
     width: 850px;
     height: 300px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px auto;
 }
 #rect_s div{
@@ -55,5 +55,38 @@
     float: left;
     width: 250px;
     height: 250px;
-    border: 1px solid gray;
+    border: 1px solid #E1DCDC;
+    transition: all 0.2s ease-in;
+}
+#rect_s div:nth-of-type(2){
+    background-color: rgb(143,201,63);;
+}
+#rect_s div:hover{
+    background-color: rgb(143,201,63);
+    border: 1px solid rgb(143,201,63);
+}
+#rect_s div i{
+    position: relative;
+    top: -30px;
+    left: 80px;
+    color: rgb(143,201,63);
+    font-size: 2em;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #E1DCDC;
+    background-color: #fff;
+}
+#rect_s div h1{
+    font-size: 1.7em;
+    text-align: center;
+    /* padding-top: 20px; */
+}
+#rect_s div p{
+    font-weight: 200;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: .9em;
 }
