@@ -1,0 +1,30 @@
+#fouth_section{
+    width: 100vw;
+    height: 40vh;
+}
+#fouth_section > img{
+    width: 50%;
+    height: 40vh;
+}
+
+#fouth_section > div{
+    width: 50%;
+    height: 40vh;
+    float: right;
+    background-color: #000;
+    color: #333;
+}
+#fouth_section > div > h1{
+    color: rgb(143,201,63);
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#fouth_section > div > p{
+    width: 600px;
+    font-size: .9em;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 20px;
+}

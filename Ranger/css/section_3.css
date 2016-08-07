@@ -59,7 +59,7 @@
     transition: all 0.2s ease-in;
 }
 #rect_s div:nth-of-type(2){
-    background-color: rgb(143,201,63);;
+    background-color: rgb(143,201,63);
 }
 #rect_s div:hover{
     background-color: rgb(143,201,63);
