@@ -1,0 +1,69 @@
+#second_section{
+    width: 100vw;
+    height: 35vh;
+    color: #fff;
+    background-color: rgb(143, 201, 63);
+}
+#second_section > section{
+    height: 342px;
+}
+#second_section > section:nth-of-type(1){
+    float: left;
+}
+#second_section > section:nth-of-type(2){
+    float: right;
+}
+#second_section section > h1{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+#second_section > section > a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 300;
+    transition: all .3s ease-in;
+}
+#second_section > section > a:hover{
+    background-color: #000;
+    border: 1px solid #000;
+}
+#second_section > section > p{
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#second_section > section > div{
+    display: inline-block;
+    height: 342px;
+}
+#second_section > section > div > img{
+    position: relative;
+    top: 3px;
+    right: 3px;
+    margin: -3px;
+    height: 342px;
+}
+#second_section > section > div > p{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-size: .9em;
+}
+#second_section > section > div > i{
+    position: relative;
+    width: 150px;
+    top: -40px;
+    left: 20px;
+    font-style: italic;
+    font-size: .9em;
+}
