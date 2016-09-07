@@ -1,0 +1,40 @@
+#fifth_section{
+    width: 100vw;
+    height: 30vh;
+}
+#fifth_section > p:nth-of-type(1){
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: .9em;
+}
+#fifth_section > h1{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+}
+#fifth_section > i{
+    color: rgb(143,201,63);
+    text-indent: 900px;
+    margin: 30px 0 60px 0;
+}
+#fifth_section > small{
+    position: relative;
+    left: 880px;
+    top: -5px;
+    display: inline-block;
+    border: 1px solid #C1BDBD;
+    width: 40px;
+}
+#fifth_section > small:nth-of-type(2){
+    position: relative;
+    left: 20px;
+}
+#fifth_section > p:nth-of-type(2){
+    text-align: center;
+    font-size: .9em;
+    font-weight: 300;
+}
