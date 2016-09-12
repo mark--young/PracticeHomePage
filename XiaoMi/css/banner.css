@@ -1,0 +1,80 @@
+.banner{
+    margin: 0 auto;
+    width: 1250px;
+    height: 100px;
+     border: 1px solid transparent;
+     background: #fff;
+}
+.logoImage{
+    margin-top: 20px;
+}
+.menubar{
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+.menubar ul{
+    height: 60px;
+}
+.menubar ul li{
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+.menubar ul li a{
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+.menubar ul li a:hover{
+    color: orange;
+}
+.mi_s{
+    position: relative;
+}
+.mi_s > nav{
+    position: absolute;
+    top: 85px;
+    transform: translateY(-216px);
+    z-index: -99;
+}
+.mi_s > nav > div{
+    display: table-cell;
+}
+
+.mi_s > nav > div a:nth-of-type(2){
+    position: relative;;
+    left: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: .8em;
+}
+.mi_s > nav > div p{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: .8em;
+}
+.mi_s:hover nav{
+    animation: show 1s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes show {
+    0% { transform: translateY(-216px);}
+    100% { transform: translateY(0);}
+}
+.mi_2 > nav,
+.mi_3 > nav{
+    margin-left: -150px;
+}
+.mi_4 > nav{
+    margin-left: -300px;
+}
+.mi_5 > nav{
+    margin-left: -350px;
+}
